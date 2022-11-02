@@ -1,9 +1,7 @@
 <template>
   <div class="main">
-    <b-button class="btn-floating" to="/team">
-      <b-icon icon="arrow-left" />
-      Zum Team
-    </b-button>
+    <h1>Fire-Phoenix</h1>
+    <h2>kommt bald zurück!</h2>
     <img class="image" src="../assets/images/phoenix.png">
     <video class="video" src="../assets/videos/main.mp4" autoplay loop muted />
   </div>
@@ -23,6 +21,7 @@ body {
 }
 .main {
   text-align: center;
+  padding-top: 50px;
 }
 
 .btn-floating {
@@ -61,7 +60,7 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 30px;
   width: 40%;
   transition: 1.4s;
 

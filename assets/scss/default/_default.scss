@@ -1,0 +1,16 @@
+.format {
+    &-normal {
+        padding: 100px 10px 100px 30px;
+    }
+
+    &-forum {
+        padding: 75px 10px 100px 210px;
+    }
+
+    @media screen and (max-width: 991px) {
+      
+        &-forum {
+            padding: 75px 10px 50px 90px;
+        }
+    }
+}
